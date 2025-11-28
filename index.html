@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Guide to accessing your Shop Your Way (SYW) account via syw.accountonline.com login, including activation, registration, troubleshooting, and security tips.">
+  <meta name="keywords" content="syw accountonline login, shop your way credit card, citi syw login, activate syw card">
+  <title>Access Your SYW Account at syw.accountonline.com Login</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.65;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+      margin-bottom: 40px;
+    }
+
+    .hero h1 {
+      font-size: 2.3rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      opacity: 0.95;
+      max-width: 780px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .site-logo {
+      width: 60px;
+      margin-bottom: 20px;
+    }
+
+
+    .cta-button {
+      display: inline-block;
+      background: white;
+      color: #007BFF;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 700;
+      transition: transform 0.3s ease;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Main Layout */
+    .main-layout {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .content {
+      flex: 1;
+      max-width: 680px;
+    }
+
+    .toc {
+      width: 260px;
+      background: white;
+      padding: 18px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      position: sticky;
+      top: 20px;
+      font-size: 0.92rem;
+      height: auto;
+    }
+
+    .toc h2 {
+      font-size: 1.2rem;
+      color: #007BFF;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #e9ecef;
+      padding-bottom: 8px;
+    }
+
+    .toc ul {
+      list-style: none;
+    }
+
+    .toc li {
+      margin-bottom: 7px;
+    }
+
+    .toc a {
+      text-decoration: none;
+      color: #6c757d;
+      transition: color 0.3s ease;
+      line-height: 1.4;
+      display: block;
+      padding: 4px 0;
+    }
+
+    .toc a:hover {
+      color: #007BFF;
+    }
+
+    /* Sections */
+    .section {
+      background: white;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+      border-left: 4px solid #007BFF;
+      font-size: 0.96rem;
+    }
+
+    .section h2 {
+      font-size: 1.6rem;
+      color: #007BFF;
+      margin-bottom: 15px;
+    }
+
+    .section h3 {
+      font-size: 1.3rem;
+      color: #0056b3;
+      margin: 20px 0 12px 0;
+    }
+
+    .section p,
+    .section ul,
+    .section ol {
+      margin-bottom: 14px;
+      text-align: justify;
+    }
+
+    .section ul,
+    .section ol {
+      padding-left: 18px;
+    }
+
+    .section li {
+      margin-bottom: 7px;
+    }
+
+    .section a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .section a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .container {
+        max-width: 900px;
+        padding: 0 15px;
+      }
+
+      .main-layout {
+        gap: 25px;
+      }
+
+      .toc {
+        width: 240px;
+      }
+
+      .content {
+        max-width: 620px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 50px 15px;
+      }
+
+      .hero h1 {
+        font-size: 1.9rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+        max-width: 100%;
+      }
+
+      .main-layout {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .toc {
+        width: 100%;
+        position: static;
+        margin-bottom: 25px;
+        order: -1;
+        /* TOC above content on mobile */
+      }
+
+      .content {
+        max-width: 100%;
+      }
+
+      .section {
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      .section h2 {
+        font-size: 1.4rem;
+      }
+
+      .section h3 {
+        font-size: 1.2rem;
+      }
+
+      .container {
+        padding: 0 15px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero {
+        padding: 40px 10px;
+      }
+
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+
+      .hero p {
+        font-size: 0.95rem;
+      }
+
+      .cta-button {
+        padding: 10px 24px;
+        font-size: 0.95rem;
+      }
+
+      .section {
+        padding: 15px;
+      }
+
+      .section h2 {
+        font-size: 1.3rem;
+      }
+
+      .toc {
+        padding: 15px;
+      }
+
+      .toc h2 {
+        font-size: 1.1rem;
+      }
+
+      .toc a {
+        font-size: 0.9rem;
+      }
+
+      .container {
+        padding: 0 10px;
+      }
+    }
+
+    /* Ensure touch-friendly links on mobile */
+    @media (hover: none) and (pointer: coarse) {
+
+      .toc a,
+      .cta-button,
+      .section a {
+        min-height: 44px;
+        display: inline-block;
+        line-height: 1.4;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <section class="hero">
+    <div class="container">
+      <img src="logo.png" alt="SYW Logo" class="site-logo">
+      <h1>Access Your SYW Account at syw.accountonline.com Login</h1>
+      <p>Looking to log in to your Shop Your Way (SYW) account through syw.accountonline.com login? If you’ve recently
+        received your SYW credit card or need to manage your account online, this guide will help you get started. Many
+        users search for syw.accountonline.com login after receiving their card from Citi or when trying to access
+        rewards, statements, or payments.</p>
+      <a href="https://www.shopyourway.com/" class="cta-button">Log In Now</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="main-layout">
+      <div class="content">
+        <div class="section">
+          <h2 id="get-started">Get Started with SYW.AccountOnline.com Login</h2>
+          <p>Accessing your Shop Your Way account is simple when you follow the right steps. In this guide, we walk you
+            through:</p>
+          <ul>
+            <li>Logging into your SYW account</li>
+            <li>Registering your card online</li>
+            <li>Managing payments and statements</li>
+            <li>Resetting your login information</li>
+            <li>Troubleshooting common issues</li>
+          </ul>
+          <p>By the end, you’ll understand exactly how to use syw.accountonline.com login, manage your credit card
+            account, and keep everything secure.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="what-you-need">What You’ll Need Before You Begin</h2>
+          <p>Before visiting <a href="https://www.shopyourway.com/">https://syw.accountonline.com</a>, make sure you
+            have:</p>
+          <ul>
+            <li>Your Shop Your Way credit card</li>
+            <li>Your card number, CVV, and personal identification details</li>
+            <li>Your registered phone number or email for verification</li>
+            <li>A stable internet connection</li>
+            <li>A Citi online account (or be ready to create one)</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2 id="step-by-step">Step-by-Step: Log In to Your SYW Account</h2>
+          <p>Here’s how to log in to syw.accountonline.com:</p>
+          <ol>
+            <li>Open your browser and go to: <a href="https://www.shopyourway.com/">https://syw.accountonline.com</a>
+            </li>
+            <li>Locate the login section on the page.</li>
+            <li>Enter your User ID.</li>
+            <li>Type your Password.</li>
+            <li>Click Sign On.</li>
+            <li>If prompted, complete two-step verification using SMS or email.</li>
+            <li>Once verified, your SYW account dashboard will load.</li>
+          </ol>
+          <p>Your dashboard lets you view payments, statements, rewards, and more.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="activate-card">How to Activate Your SYW Credit Card</h2>
+          <p>If you are activating your Shop Your Way credit card for the first time:</p>
+          <ol>
+            <li>Visit: <a href="https://www.shopyourway.com/">https://syw.accountonline.com</a></li>
+            <li>Click on Register Your Card or Activate Card.</li>
+            <li>Enter your credit card number, name, CVV, and other details.</li>
+            <li>Verify your identity.</li>
+            <li>Create or log in to your Citi/SYW online account.</li>
+          </ol>
+          <p>Your card will be activated and ready for use. Activation completes within minutes.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="register-account">How to Register for an Online Account</h2>
+          <p>If you haven’t created your online SYW login yet, follow these steps:</p>
+          <ol>
+            <li>Visit syw.accountonline.com.</li>
+            <li>Click Register for Online Access.</li>
+            <li>Enter your credit card number.</li>
+            <li>Provide personal information (name, DOB, SSN last 4 digits).</li>
+            <li>Create a Username and Password.</li>
+            <li>Select your security questions.</li>
+            <li>Complete verification.</li>
+          </ol>
+          <p>You can now log in anytime using your new credentials.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="recover-info">How to Recover a Forgotten User ID or Password</h2>
+          <h3>Forgot User ID</h3>
+          <ol>
+            <li>Click Retrieve User ID on the login page.</li>
+            <li>Enter your registered email or phone number.</li>
+            <li>Complete verification.</li>
+            <li>Your User ID will be sent to you.</li>
+          </ol>
+          <h3>Forgot Password</h3>
+          <ol>
+            <li>Click Reset Password.</li>
+            <li>Enter your User ID.</li>
+            <li>Verify your identity through OTP.</li>
+            <li>Set a new password.</li>
+          </ol>
+          <p>You can now log in again.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="manage-account">Managing Your SYW Account After Login</h2>
+          <p>Once logged in, your dashboard lets you:</p>
+          <ul>
+            <li>View statements and transaction history</li>
+            <li>Check credit limit and available balance</li>
+            <li>Make online payments</li>
+            <li>Set up AutoPay</li>
+            <li>Update email, phone number, and address</li>
+            <li>Track and redeem Shop Your Way rewards</li>
+            <li>Report lost or stolen cards</li>
+            <li>Change notification preferences</li>
+          </ul>
+          <p>The portal is secure, fast, and easy to use.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="benefits">Benefits of SYW.AccountOnline.com Login</h2>
+          <p>Logging in gives you access to essential account tools including:</p>
+          <ul>
+            <li>Instant access to monthly statements</li>
+            <li>Secure online payments</li>
+            <li>Real-time reward tracking</li>
+            <li>Fraud alerts and security notifications</li>
+            <li>24/7 account access</li>
+            <li>Auto-pay setup and reminders</li>
+            <li>Digital wallet compatibility</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2 id="troubleshooting">Troubleshooting Login Issues</h2>
+          <p>If you encounter problems during login, try these solutions:</p>
+          <h3>Invalid Password</h3>
+          <p>Reset your password using the “Reset Password” link.</p>
+          <h3>Account Locked</h3>
+          <p>Wait 24 hours or unlock it through verification.</p>
+          <h3>Browser Issues</h3>
+          <ul>
+            <li>Clear cache and cookies.</li>
+            <li>Use incognito/private mode.</li>
+            <li>Try another browser.</li>
+          </ul>
+          <h3>Verification Code Not Received</h3>
+          <ul>
+            <li>Check spam folder.</li>
+            <li>Ensure your phone number/email is correct.</li>
+            <li>Request a new code.</li>
+          </ul>
+          <p>If issues continue, contact Citi customer support for help.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="security-tips">Security Tips for SYW Users</h2>
+          <p>When using syw.accountonline.com login, be sure to follow safe practices:</p>
+          <ul>
+            <li>Never share your User ID or Password.</li>
+            <li>Avoid logging in on public Wi-Fi.</li>
+            <li>Enable login alerts and fraud notifications.</li>
+            <li>Check your statements regularly.</li>
+            <li>Update your password periodically.</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2 id="payment-tips">Subscription Renewal or Payment Tips</h2>
+          <p>Your SYW credit card requires monthly payments. You can:</p>
+          <ul>
+            <li>Pay manually through the dashboard</li>
+            <li>Set up AutoPay</li>
+            <li>Receive due-date reminders</li>
+            <li>Download statements for record-keeping</li>
+          </ul>
+          <p>Payments made online post quickly and securely.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="why-use">Why Use syw.accountonline.com Login?</h2>
+          <p>The official login portal provides:</p>
+          <ul>
+            <li>Fast and secure access</li>
+            <li>Accurate account details</li>
+            <li>Real-time transaction updates</li>
+            <li>Easy reward tracking</li>
+            <li>Full online account management</li>
+          </ul>
+          <p>Using syw.accountonline.com login ensures you are accessing the official Citi-managed SYW platform.</p>
+        </div>
+
+        <div class="section">
+          <h2 id="conclusion">Conclusion</h2>
+          <p>Accessing your Shop Your Way credit card account through syw.accountonline.com login is simple and secure.
+            Whether you're logging in for the first time, activating your card, making payments, or checking rewards,
+            this portal gives you everything you need.</p>
+          <p>Don’t wait—log in to your SYW account today and stay in full control of your credit card, rewards, and
+            financial activity.</p>
+        </div>
+      </div>
+
+      <nav class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="#get-started">Get Started with SYW.AccountOnline.com Login</a></li>
+          <li><a href="#what-you-need">What You’ll Need Before You Begin</a></li>
+          <li><a href="#step-by-step">Step-by-Step: Log In to Your SYW Account</a></li>
+          <li><a href="#activate-card">How to Activate Your SYW Credit Card</a></li>
+          <li><a href="#register-account">How to Register for an Online Account</a></li>
+          <li><a href="#recover-info">How to Recover a Forgotten User ID or Password</a></li>
+          <li><a href="#manage-account">Managing Your SYW Account After Login</a></li>
+          <li><a href="#benefits">Benefits of SYW.AccountOnline.com Login</a></li>
+          <li><a href="#troubleshooting">Troubleshooting Login Issues</a></li>
+          <li><a href="#security-tips">Security Tips for SYW Users</a></li>
+          <li><a href="#payment-tips">Subscription Renewal or Payment Tips</a></li>
+          <li><a href="#why-use">Why Use syw.accountonline.com Login?</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+
+</html>
